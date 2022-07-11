@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: managed-gitops
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:jduimovich-managed-gitops
+      - image: quay.io/redhat-appstudio/user-workload:jduimovich-managed-gitops-45b53e5f01fe8f441a20b450b266172dd628a431
         imagePullPolicy: Always
         name: container-image
         resources: {}
