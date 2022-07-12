@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: build-service
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:jduimovich-build-service-f13b881e3404ad3401fa7b533df3f7daddd11b55
+      - image: quay.io/redhat-appstudio/user-workload:jduimovich-build-service
         imagePullPolicy: Always
         name: container-image
         resources: {}
