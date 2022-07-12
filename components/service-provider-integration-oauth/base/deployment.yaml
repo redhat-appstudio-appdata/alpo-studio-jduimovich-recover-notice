@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: service-provider-integration-oauth
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:jduimovich-service-provider-integration-oauth-4cf41729e80f040fadfd1bf3f110a5989f58fa87
+      - image: quay.io/redhat-appstudio/user-workload:jduimovich-service-provider-integration-oauth
         imagePullPolicy: Always
         name: container-image
         resources: {}
